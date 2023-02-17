@@ -55,7 +55,7 @@ Along with this process, tests will be created at this point that will be also v
 It is noted that no matter what roles each team member is, all of them will be responsible for development of the software product. Also, each role does not have complete authority to drive their specific domain, they just initiate and formalize the aspect of their contribution, and the rest of the team should discuss and eventually agree on the decisions. For example, the architect will create the first high level design structure, but after getting feedback from the rest of the team, will revise until it is accepted.
 * Architect: 
     The architect will be responsible for initiating the design and adherence to the high level architecture that meets the engineering requirements. He will also create and maintain the project structure in the Java environment.
-* Test:
+* Test Developer:
     This role will work with the architect to ensure testability of the requirements and the design being implemented, this will involve creating test cases, integration tests, and approving team pull requests to the master branch. 
 * GUI front end:
     This developing role will particularly focus on the design and adherence to the harder to quantify aspects of the requirements such as enjoyability and experience. This has the freedom to design and use whichever libraries are needed to meet this.
