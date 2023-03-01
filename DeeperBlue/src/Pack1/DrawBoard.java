@@ -13,7 +13,8 @@ import javax.swing.JPanel;
 
 
 
-
+// This class will have the methods for drawing the board and pieces
+// The DisplayBoard method will take boardstate and image array parameters, drawing the board and correct pieces according to the boardstate.
 public class DrawBoard {
 	static int Resoultion = 1000;
 	static int square_size = Resoultion/8;
