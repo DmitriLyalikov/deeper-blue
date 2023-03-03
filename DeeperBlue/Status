@@ -1,6 +1,0 @@
-As of 3/1/23:
-
-I have the board correctly displaying with all the pieces. I can move the pieces based on typed-user input.
-I have to do research on how to track mouse inputs so that users could use the mouse instead of typing coordinates.
-I also have to do research on dragging and dropping the pieces, as currently they just warp to the square.
-There are also some minor bugs with the window that I plan on fixing on a later date.
