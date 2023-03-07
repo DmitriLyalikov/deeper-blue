@@ -1,0 +1,4 @@
+3/3/23
+
+Implemented mouse inputs, pieces are able to be dragged to squares. Currently pieces have no move logic, so any piece can move anywhere.
+If a piece is occupied by another piece, it will be captured.
