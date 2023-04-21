@@ -1,0 +1,18 @@
+Kg8
+	eval
+	0
+	is_analyzed
+	false
+	count
+	3
+	notation
+	-1
+Qb8+
+	eval
+	0
+	is_analyzed
+	false
+	count
+	2
+	notation
+	-1

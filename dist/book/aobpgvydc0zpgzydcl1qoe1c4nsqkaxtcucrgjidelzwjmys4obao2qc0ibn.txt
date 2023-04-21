@@ -1,0 +1,18 @@
+Qe3
+	eval
+	0
+	is_analyzed
+	false
+	notation
+	-1
+	count
+	1
+Kg3
+	eval
+	0
+	is_analyzed
+	false
+	count
+	1
+	notation
+	-1

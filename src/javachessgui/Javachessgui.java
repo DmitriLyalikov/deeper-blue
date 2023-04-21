@@ -111,7 +111,7 @@ public class Javachessgui extends Application {
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
         
-        system_message("Welcome!",2000);
+        system_message("Welcome to Deeper-Blue!",2000);
         
         System.out.println("Deeper Blue Chess GUI Started");
     }
