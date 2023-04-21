@@ -1,3 +1,0 @@
-/nbproject
-/build
-/book

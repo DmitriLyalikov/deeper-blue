@@ -1,7 +1,3 @@
-*.class
-
-# Package Files #
-*.war
-*.ear
-.project
-.settings
+/nbproject
+/build
+/book
