@@ -23,6 +23,7 @@ public class Gui {
               
         s=set_s;
         
+        // initialize a new board
         b=new Board(true);
         b.s=s;
         

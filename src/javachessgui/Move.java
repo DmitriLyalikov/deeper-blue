@@ -1,5 +1,14 @@
 package javachessgui;
 
+/**
+ *  Author: Dmitri Lyalikov 
+ *  File: Move.java
+ * 
+ *  Move class for a move event on the board. 
+ *  i1, j1 represent previous position, 
+ *  i2, j2 represent future position after move
+ */
+
 public class Move {
     
     public int i1,j1;
@@ -46,6 +55,7 @@ public class Move {
         return algeb;
     }
     
+    // Copy new move to current updated state
     public void copy(Move m)
     {
         
@@ -57,7 +67,8 @@ public class Move {
         prom_piece=m.prom_piece;
         
     }
-    
+
+    // validate the correctness of the move (basically that it fits within our matrix and is valid)
     public void from_algeb(String algeb)
     {
         

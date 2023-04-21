@@ -9,6 +9,15 @@ import javafx.application.Platform;
 
 import javafx.scene.control.TextArea;
 
+/**
+ *  Author: Dmitri Lyalikov 
+ *  File: Javachessgui.java
+ * 
+ * - Initialize our GUI based on the JavaFX library 
+ * - Start a new thread and start process, 
+ * - define functions for safely destructing and quitting the application
+ */
+
 public class Javachessgui extends Application {
     
     public Gui gui;
@@ -83,7 +92,7 @@ public class Javachessgui extends Application {
                
         init_app();
         
-        primaryStage.setTitle("Chess GUI");
+        primaryStage.setTitle("Deeper Blue");
         primaryStage.setX(0);
         primaryStage.setY(0);
 
@@ -104,7 +113,7 @@ public class Javachessgui extends Application {
         
         system_message("Welcome!",2000);
         
-        System.out.println("application started");
+        System.out.println("Deeper Blue Chess GUI Started");
     }
        
     @Override
@@ -112,13 +121,13 @@ public class Javachessgui extends Application {
 
         gui.shutdown();
         
-        System.out.println("application stopped");
+        System.out.println("Deeper Blue Chess GUI stopped");
     }
 
     private void init_app() {
         Board.init_class();
         
-        System.out.println("application initialized");
+        System.out.println("GUI initialized");
     }
 
     public static void main(String[] args) {

@@ -1,5 +1,11 @@
 package javachessgui;
 
+/**
+ *  Author: Dmitri Lyalikov 
+ *  File: MoveDescriptor.java
+ * 
+ *  Class to enumerate and describe the special cases for moves (end_piece, castling, promotion)
+ */
 
 public class MoveDescriptor {
     
